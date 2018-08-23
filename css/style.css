@@ -1,0 +1,165 @@
+body{
+    font-size: 16px;
+}
+.top-bar { 
+    background-color: #ccc;
+    color:#858585;
+    padding: 6px 0;
+    font-size: 12px;
+}
+.top-bar-inner a:hover{
+    color:#14c0c9;
+}
+.top-bar-inner {
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+    margin-top: 0px;
+}
+.top-bar-inner ul {
+    padding: 0;
+    margin: 0;
+    color: gray;
+    text-align: left; 
+}
+.top-bar-inner li {
+    display:inline;
+    margin-right: 5px;
+    text-decoration: none; 
+    color: gray;
+}
+.top-bar-inner a{
+    display:inline;
+    text-decoration: none;
+    color:gray; 
+    text-align: right; 
+}
+.top-bar-inner p{
+    display:inline;
+    text-decoration: none;
+    color:gray; 
+    text-align: right; 
+}
+.logo{
+    margin-top:15px;
+}
+.logo img{
+    display: inline;
+    text-align: left;
+}
+.logo a:hover{
+    background-color:#14c0c9;
+}
+.logo a{
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.logo li{
+    display: inline;
+    text-align: right;
+    color:gray; 
+    text-decoration: none;
+}
+.logo ul {
+    padding: 0;
+    margin: 0;
+    color: gray;
+    text-align: right;
+}
+.nav{
+    margin-top:15px;
+}
+.nav a:hover{
+    background-color:#14c0c9;
+}
+.nav a{
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.nav li{
+    display: inline;
+    text-align: right;
+    color:gray; 
+    text-decoration: none;
+}
+.big-pic img{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.set-pic{
+    margin-top: 10px; 
+}
+.latest{
+    display:inline;
+    text-decoration: none;
+    color:gray; 
+    text-align: left;
+} 
+.latest p{
+    text-align: left;
+}
+.second-set input{
+    background-color:#434a4a;
+    color:white;
+}
+.text{
+    margin-top:20px;
+    margin-bottom:15px; 
+}
+.fashion{
+    margin-bottom: 25px;
+}
+.fashion input{
+    background-color:#434a4a;
+    color:white;
+}
+.brand-logo{
+    margin-bottom: 25px;
+}
+.sign-up{
+    margin-bottom: 25px;
+}
+.info-text{
+    background-color:#434a4a;
+    color:white;
+    padding: 10px;
+    margin-bottom: 0%;
+}
+.account li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.account ul{
+    display: inline;
+}
+.account a{
+    text-decoration: none;
+    color:white;
+}
+.account a:hover{
+    color:#14c0c9;
+}
+.products li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.products ul{
+    display: inline;
+    text-decoration: none;
+}
+.products a{
+    text-decoration: none;
+    color:white;
+}
+.products a:hover{
+    color:#14c0c9;
+}
+.footer{
+    background-color:#434a4a;
+    color:white;
+    padding: 20px 0;
+}
+    
