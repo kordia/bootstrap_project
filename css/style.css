@@ -2,13 +2,18 @@ body{
     font-size: 16px;
 }
 .top-bar { 
-    background-color: #ccc;
+    background-color: f5f5f5;
     color:#858585;
     padding: 6px 0;
     font-size: 12px;
+    border-top: 3px solid #0aa8ad;
 }
 .top-bar-inner a:hover{
     color:#14c0c9;
+}
+.top-bar-inner p{
+    text-align: right;
+    margin: 0;
 }
 .top-bar-inner {
     list-style: none;
@@ -34,12 +39,6 @@ body{
     color:gray; 
     text-align: right; 
 }
-.top-bar-inner p{
-    display:inline;
-    text-decoration: none;
-    color:gray; 
-    text-align: right; 
-}
 .logo{
     margin-top:15px;
 }
@@ -48,11 +47,15 @@ body{
     text-align: left;
 }
 .logo a:hover{
-    background-color:#14c0c9;
+    color:#14c0c9;
+    text-decoration: none;
 }
 .logo a{
+    background-color: #e6e6e6;
+    color:#a1a1a1;
     text-decoration: none;
     padding: 10px 15px;
+    border-radius: 5px;
 }
 .logo li{
     display: inline;
@@ -70,11 +73,12 @@ body{
     margin-top:15px;
 }
 .nav a:hover{
-    background-color:#14c0c9;
+    color:#14c0c9;
+    text-decoration: none;
 }
 .nav a{
-    text-decoration: none;
     padding: 10px 15px;
+    color:gray; 
 }
 .nav li{
     display: inline;
@@ -88,26 +92,98 @@ body{
 }
 .set-pic{
     margin-top: 10px; 
+    margin-bottom: 20px;
 }
-.latest{
-    display:inline;
-    text-decoration: none;
-    color:gray; 
-    text-align: left;
+.items{
+    text-align: center;
+}
+
+.latest a:hover{
+    background-color:#14c0c9;
 } 
-.latest p{
-    text-align: left;
+.latest a{
+    background-color: #fafafa;
+    color:#9e9e9e;
+    padding:10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid black;
 }
-.second-set input{
+.latest ul {
+    text-align: right;
+    margin-top: 20px;
+}
+.latest li {
+    display: inline;
+}
+.bestsellers a:hover{
+    background-color:#14c0c9;
+} 
+.bestsellers ul {
+    text-align: right;
+    margin-top: 20px;
+}
+.bestsellers li {
+    display: inline;
+}
+.bestsellers a{
+    background-color: #fafafa;
+    color:#9e9e9e;
+    padding:10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.manufacturers a{
+    background-color: #fafafa;
+    color:#9e9e9e;
+    padding:10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.manufacturers a:hover{
+    background-color:#14c0c9;
+}
+.manufacturers li{
+    display: inline;
+}
+.manufacturers ul {
+    text-align: right;
+    margin-top: 20px;
+}
+.second-set h5{
+    font: 10px;
+    text-align: center;
+}
+.second-set a{
     background-color:#434a4a;
     color:white;
+    display: center;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.fashion a{
+    background-color:#434a4a;
+    color:white;
+    display: center;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.fashion h5{
+    font: 10px;
+    text-align: center;
 }
 .text{
     margin-top:20px;
-    margin-bottom:15px; 
+    margin-bottom:25px; 
 }
 .fashion{
     margin-bottom: 25px;
+}
+.fashion h4{
+    font: 10px;
+    text-align: center;
 }
 .fashion input{
     background-color:#434a4a;
@@ -116,39 +192,31 @@ body{
 .brand-logo{
     margin-bottom: 25px;
 }
-.sign-up{
-    margin-bottom: 25px;
-}
 .info-text{
-    background-color:#434a4a;
-    color:white;
-    padding: 10px;
-    margin-bottom: 0%;
+    background-color: #434a4a;
+}
+.info-text h3{
+    color: white;
 }
 .account li{
-    list-style: none;
-    text-decoration: none;
-    color: white;
+    color: #09a6b8;
+    padding: 10px;
 }
 .account ul{
     display: inline;
 }
 .account a{
-    text-decoration: none;
     color:white;
 }
 .account a:hover{
     color:#14c0c9;
 }
 .products li{
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    margin-top: 10px;
+    color: #09a6b8;
+    padding: 10px;
 }
 .products ul{
     display: inline;
-    text-decoration: none;
 }
 .products a{
     text-decoration: none;
@@ -157,9 +225,76 @@ body{
 .products a:hover{
     color:#14c0c9;
 }
+.twitter p{
+    color:white;
+    padding-right: 10px;
+    margin-top: 33px;
+}
+.twitter a{
+    color:white;
+}
+.twitter a:hover{
+    color:#14c0c9;
+}
+.twitter h5{
+    color:white;
+}
+.paragraph p{
+    color:white;
+    padding-right: 15px;
+    margin-top: 25px;
+}
+.paragraph a{
+    color:white;
+}
+.paragraph a:hover{
+    color:#14c0c9;
+}
+.paragraph h5{
+    color:white;
+}
+.images a{
+    color:white;
+}
+.facebook-pic h3{
+    float: left;
+}
+.facebook-pic img{
+    float: right;
+    margin-top: 20px;
+}
+.people p{
+    float: left;
+    color:white;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.people a{
+    color:#14c0c9;
+}
+.people a:hover{
+    color:#14c0c9;
+}
+.sign-up form{
+    margin-right: 10px;
+}
+.sign-up{
+    background-color:#d4d4d4;
+    padding-top: 10px;
+}
+.sign-up h2{
+    margin-top: 5px;
+}
+.sign-up input{
+    border: solid #fae01e 3px;
+}
 .footer{
-    background-color:#434a4a;
+    background-color:#424a4a;
+    border-top: 3px solid black;
     color:white;
     padding: 20px 0;
+}
+.footer p{
+    padding:10px;
 }
     
