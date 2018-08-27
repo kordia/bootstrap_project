@@ -1,8 +1,14 @@
 body{
     font-size: 16px;
 }
+
+.color-bar {
+    border-left: 5px solid #14c0c9;
+    padding-left: 10px;
+}
+
 .top-bar { 
-    background-color: f5f5f5;
+    background-color: #f5f5f5;
     color:#858585;
     padding: 6px 0;
     font-size: 12px;
@@ -86,6 +92,31 @@ body{
     color:gray; 
     text-decoration: none;
 }
+.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: white;
+}
+.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #e6e6e6;
+    color: #8f8f8f;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .big-pic img{
     margin-top: 15px;
     margin-bottom: 10px;
@@ -97,7 +128,6 @@ body{
 .items{
     text-align: center;
 }
-
 .latest a:hover{
     background-color:#14c0c9;
 } 
@@ -163,12 +193,21 @@ body{
     border-radius: 5px;
     padding: 10px 15px;
 }
+.second-set a:hover{
+    color: #09a6b8;
+    text-decoration: none;
+}
 .fashion a{
     background-color:#434a4a;
     color:white;
     display: center;
     border-radius: 5px;
     padding: 10px 15px;
+    margin-bottom: 20px;
+}
+.fashion a:hover{
+    color: #09a6b8;
+    text-decoration: none;
 }
 .fashion h5{
     font: 10px;
@@ -194,6 +233,7 @@ body{
 }
 .info-text{
     background-color: #434a4a;
+    padding-bottom: 100px;
 }
 .info-text h3{
     color: white;
@@ -206,10 +246,11 @@ body{
     display: inline;
 }
 .account a{
-    color:white;
+    color:#9fa1a1;
 }
 .account a:hover{
     color:#14c0c9;
+    text-decoration: none;
 }
 .products li{
     color: #09a6b8;
@@ -220,41 +261,43 @@ body{
 }
 .products a{
     text-decoration: none;
-    color:white;
+    color:#9fa1a1;
 }
 .products a:hover{
     color:#14c0c9;
 }
 .twitter p{
-    color:white;
+    color:#9fa1a1;
     padding-right: 10px;
     margin-top: 33px;
 }
 .twitter a{
-    color:white;
+    color:#9fa1a1;
 }
 .twitter a:hover{
     color:#14c0c9;
+    text-decoration: none;
 }
 .twitter h5{
-    color:white;
+    color:#9fa1a1;
 }
 .paragraph p{
-    color:white;
+    color:#9fa1a1;
     padding-right: 15px;
     margin-top: 25px;
 }
 .paragraph a{
-    color:white;
+    color:#9fa1a1;
 }
 .paragraph a:hover{
     color:#14c0c9;
+    text-decoration: none;
 }
 .paragraph h5{
-    color:white;
+    color:#9fa1a1;
 }
 .images a{
-    color:white;
+    color:#9fa1a1;
 }
 .facebook-pic h3{
     float: left;
@@ -265,18 +308,22 @@ body{
 }
 .people p{
     float: left;
-    color:white;
-    margin: 10px;
+    color:#9fa1a1;
+    margin-right: 10px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 .people a{
     color:#14c0c9;
+    text-decoration: none;
 }
 .people a:hover{
     color:#14c0c9;
 }
+
 .sign-up form{
     margin-right: 10px;
+    text-align: right;
 }
 .sign-up{
     background-color:#d4d4d4;
@@ -285,16 +332,29 @@ body{
 .sign-up h2{
     margin-top: 5px;
 }
-.sign-up input{
+.input{
     border: solid #fae01e 3px;
+}
+.clickable{
+   background-color:#424a4a;
+   color: white;
+}
+.images a:hover{
+    color:#14c0c9;
+    text-decoration: none;
+}
+.images h4 {
+    text-align: center;
+    margin: 5px 0 15px;
 }
 .footer{
     background-color:#424a4a;
-    border-top: 3px solid black;
-    color:white;
+    border-top: 3px solid #353838;
+    color:#9fa1a1;
     padding: 20px 0;
 }
 .footer p{
     padding:10px;
+    text-align: right;
 }
     

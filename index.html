@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bootstrap Project</title>
 </head>
 <body>
@@ -56,10 +57,9 @@
                 </ul>
             </div>    
             <div class='col-sm-3'>
-                <form action="http://www.example.org/search.php">
-                    <input type= " search" name="search"
-                    placeholder="Search here"/>
-                    <input type= "submit" value= "search">
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search here..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
             </div>    
         </div>
@@ -87,8 +87,8 @@
     <div class="latest container">
         <div class='row'> 
             <div class="col-sm-9">
-                <h2>Latest</h2>
-                <p>Buy discount items from the lastest collections of world brands.</p>
+                <h2 class="color-bar">Latest</h2>
+                    <p>Buy discount items from the lastest collections of world brands.</p>
             </div>
             <div class="col-sm-3">
                 <div class="signs">
@@ -127,7 +127,7 @@
     <div class="text container">
         <div class='row'> 
             <div class="col-sm-6">
-                <h2>Welcome Vendor</h2>
+                <h2 class="color-bar">Welcome to vendor</h2>
                     <p>Vendo is a fully respnsive PSD theme designed for all types 
                     of platforms WooCommerce, Magento, OpenCar, PrestaShop and other. 
                     Based on Bootstrap's 12 columns 1200px responsive grid Template.
@@ -148,8 +148,8 @@
     <div class="bestsellers container">
         <div class='row'> 
             <div class="col-sm-9">
-                    <h2>Bestsellers</h2>
-                    <p>Special offers and biggest discounts for the most popular products.</p>
+                    <h2 class="color-bar">Bestsellers</h2>
+                        <p>Special offers and biggest discounts for the most popular products.</p>
             </div>
             <div class= 'col-sm-3'>
                 <div class="signs">
@@ -171,7 +171,7 @@
             <div class="items col-sm-3">
                 <img src="images/purse.jpg">
                 <h5>Jessica London Short Trench Coat</h5>
-                <a href="#">ADD TO CART</a>
+                <a href="#">ADD TO CART</a>   
             </div>  
             <div class="items col-sm-3">
                 <img src="images/shoes.jpg">
@@ -188,7 +188,7 @@
     <div class="manufacturers container">
         <div class='row'> 
             <div class="col-sm-9">
-                <h1>Manufacturers</h1>
+                <h2 class="color-bar">Manufacturers</h2>
             </div> 
             <div class="signs">
                     <ul>
@@ -228,9 +228,9 @@
                 </div>
                 <div class='col-sm-4'>
                     <form action="http://www.example.org/search.php">
-                        <input type= " search" name="search"
+                        <input class='input' type= " search" name="search"
                         placeholder="Enter email address"/>
-                        <input type= "submit" value= "SIGN UP">
+                        <input class='clickable' type= "submit" value= "SIGN UP">
                     </form>
                 </div>
             </div>
@@ -285,20 +285,38 @@
                 <div class="col-sm-3">
                     <div class='facebook-pic'>
                         <h3>FACEBOOK</h3>
-                        <a href="https://placeholder.com"><img src="images/like.jpg"></a>
+                        <a href="#"><img src="images/like.jpg"></a>
                     </div>
                     <div class='people'>
                         <p>1452 people like <a href="#">PromoKit</a></p>
                     </div>
                     <div class='images'>
                         <div class= 'row'>
-                            <div class="col-sm-4"><img src="images/anna.jpg" alt=""><a href="#">Anna</a></div>
-                            <div class="col-sm-4"><img src="images/tom.jpg" alt=""><a href="#">Tom</a></div>
-                            <div class="col-sm-4"><img src="images/antuan.jpg" alt=""><a href="#">Antuan</a></div>
+                            <div class="col-sm-4">
+                                <img src="images/anna.jpg" alt="">
+                                <h4><a href="#">Anna</a></h4>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/tom.jpg" alt="">
+                                <h4><a href="#">Tom</a></h4>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/antuan.jpg" alt="">
+                                <h4><a href="#">Antuan</a></h4>
+                            </div>
                             <div class="clearfix"></div>
-                            <div class="col-sm-4"><img src="images/milla.jpg" alt=""><a href="#">Milla</a></div>
-                            <div class="col-sm-4"><img src="images/justine.jpg" alt=""><a href="#">Justine</a></div>
-                            <div class="col-sm-4"><img src="images/maria.jpg" alt=""><a href="#">Maria</a></div>
+                            <div class="col-sm-4">
+                                <img src="images/milla.jpg" alt="">
+                                <h4><a href="#">Milla</a></h4>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/justine.jpg" alt="">
+                                <h4><a href="#">Justine</a></h4>
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/maria.jpg" alt="">
+                                <h4><a href="#">Maria</a></h4>
+                            </div>
                         </div>
                     </div>        
                 </div>    
@@ -308,17 +326,17 @@
     <div class="footer">
         <div class='container'>
             <div class='row'>
-                <div class='col-sm-7'>
-                    <img src="images/facebook.jpg">
-                    <img src="images/twitter.jpg">
-                    <img src="images/wifi.jpg"></a>
-                    <img src="images/boxes.jpg"></a>
-                    <img src="images/in.jpg"></a>
-                    <img src="images/dots.jpg"></a>
-                    <img src="images/s-icon.jpg"></a>
-                    <img src="images/messages.jpg"></a>
+                <div class='col-sm-6'>
+                    <a href='#'><img src="images/facebook.jpg"></a>
+                    <a href='#'><img src="images/twitter.jpg"></a>
+                    <a href='#'><img src="images/wifi.jpg"></a>
+                    <a href='#'><img src="images/boxes.jpg"></a>
+                    <a href='#'><img src="images/in.jpg"></a>
+                    <a href='#'><img src="images/dots.jpg"></a>
+                    <a href='#'><img src="images/s-icon.jpg"></a>
+                    <a href='#'><img src="images/messages.jpg"></a>
                 </div>
-                <div class='col-sm-5'>
+                <div class='col-sm-6'>
                     <p>&copy;2012 Powered by WooCommerce &trade;. All Rights Reserved</p>
                 </div>
             </div>    
