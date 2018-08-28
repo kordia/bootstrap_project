@@ -38,6 +38,7 @@ body{
     margin-right: 5px;
     text-decoration: none; 
     color: gray;
+    padding-right: 10px;
 }
 .top-bar-inner a{
     display:inline;
@@ -53,7 +54,7 @@ body{
     text-align: left;
 }
 .logo a:hover{
-    color:#14c0c9;
+    background-color:#14c0c9;
     text-decoration: none;
 }
 .logo a{
@@ -237,13 +238,15 @@ body{
 }
 .info-text h3{
     color: white;
+    margin-right: 10px;
 }
 .account li{
     color: #09a6b8;
     padding: 10px;
 }
 .account ul{
-    display: inline;
+    padding-left: 20px;
+    margin-top: 20px;
 }
 .account a{
     color:#9fa1a1;
@@ -257,7 +260,8 @@ body{
     padding: 10px;
 }
 .products ul{
-    display: inline;
+    padding-left: 20px;
+    margin-top: 20px;
 }
 .products a{
     text-decoration: none;
@@ -311,7 +315,7 @@ body{
     color:#9fa1a1;
     margin-right: 10px;
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 22px;
 }
 .people a{
     color:#14c0c9;
@@ -351,7 +355,7 @@ body{
     background-color:#424a4a;
     border-top: 3px solid #353838;
     color:#9fa1a1;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 .footer p{
     padding:10px;
