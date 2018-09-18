@@ -465,6 +465,23 @@ body{
         font-size: 87.5%;
     }
 }
+.fashion a{
+    background-color:#434a4a;
+    color:white;
+    display: center;
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin-bottom: 20px;
+    font-size: 8px;
+}
+.second-set a{
+    background-color:#434a4a;
+    color:white;
+    display: center;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 8px;
+}
 
 .sign-up form{
     margin-right: 10px;
